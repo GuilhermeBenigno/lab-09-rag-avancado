@@ -1,0 +1,22 @@
+[
+  {"id": 1, "text": "Cefaleia pulsátil associada à fotofobia pode indicar quadro compatível com enxaqueca."},
+  {"id": 2, "text": "Dor torácica com irradiação para braço esquerdo pode estar relacionada a síndrome coronariana aguda."},
+  {"id": 3, "text": "Dispneia progressiva e sibilância podem indicar exacerbação de asma brônquica."},
+  {"id": 4, "text": "Febre persistente associada a rigidez de nuca pode sugerir meningite."},
+  {"id": 5, "text": "Poliúria, polidipsia e perda de peso podem estar associadas ao diabetes mellitus."},
+  {"id": 6, "text": "Dor epigástrica em queimação pode indicar gastrite ou doença do refluxo gastroesofágico."},
+  {"id": 7, "text": "Tosse produtiva, febre e dor torácica pleurítica podem estar associadas à pneumonia."},
+  {"id": 8, "text": "Vertigem rotatória associada a náuseas pode indicar alteração vestibular periférica."},
+  {"id": 9, "text": "Edema de membros inferiores pode estar relacionado à insuficiência cardíaca ou doença renal."},
+  {"id": 10, "text": "Dor lombar com irradiação para membro inferior pode sugerir lombociatalgia."},
+  {"id": 11, "text": "Icterícia, colúria e acolia fecal podem indicar alteração hepatobiliar."},
+  {"id": 12, "text": "Diarreia aquosa aguda pode estar associada a gastroenterite infecciosa."},
+  {"id": 13, "text": "Perda súbita de força em um lado do corpo pode sugerir acidente vascular cerebral."},
+  {"id": 14, "text": "Palpitações e sensação de batimentos irregulares podem indicar arritmia cardíaca."},
+  {"id": 15, "text": "Dor ao urinar e aumento da frequência urinária podem indicar infecção do trato urinário."},
+  {"id": 16, "text": "Prurido intenso e lesões eritematosas podem estar relacionados a dermatite alérgica."},
+  {"id": 17, "text": "Rouquidão persistente pode estar associada a laringite ou alterações nas pregas vocais."},
+  {"id": 18, "text": "Dor articular, edema e rigidez matinal podem sugerir doença reumatológica inflamatória."},
+  {"id": 19, "text": "Sonolência diurna excessiva e roncos podem estar associados à apneia obstrutiva do sono."},
+  {"id": 20, "text": "Ansiedade, taquicardia e sudorese podem ocorrer em crises de pânico."}
+]
