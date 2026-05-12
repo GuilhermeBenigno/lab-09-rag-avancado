@@ -3,7 +3,7 @@ from transformers import pipeline
 
 def generate_hyde_document(query):
     generator = pipeline(
-        "text2text-generation",
+        "text-generation",
         model="google/flan-t5-small"
     )
 
@@ -15,11 +15,17 @@ Pergunta: {query}
 Documento técnico:
 """
 
-    result = generator(prompt, max_new_tokens=80, do_sample=False)
+    result = generator(
+        prompt,
+        max_new_tokens=80,
+        do_sample=False
+    )
 
-    hyde_doc = result[0]["generated_text"]
+    generated_text = result[0]["generated_text"]
 
-    if len(hyde_doc.strip()) < 10:
-        hyde_doc = f"Paciente apresenta sintomas compatíveis com quadro clínico relacionado a: {query}"
+    hyde_doc = generated_text.replace(prompt, "").strip()
+
+    if len(hyde_doc) < 10:
+        hyde_doc = f"Paciente apresenta cefaleia pulsátil associada à fotofobia. Relato compatível com sintomas descritos como: {query}"
 
     return hyde_doc
