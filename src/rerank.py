@@ -2,7 +2,7 @@ from sentence_transformers import CrossEncoder
 
 
 def rerank_documents(original_query, retrieved_docs, top_n=3):
-    cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+    cross_encoder = CrossEncoder("cross-encoder/mmarco-mMiniLMv2-L12-H384-v1")
 
     pairs = [
         [original_query, doc["text"]]
